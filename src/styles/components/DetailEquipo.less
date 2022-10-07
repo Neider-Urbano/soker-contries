@@ -1,0 +1,59 @@
+.divDetailEquipo{
+    padding: 25px 35px 35px 35px;
+    max-height: 92vh;
+    overflow-y: auto;
+    .divEquipoJugadores{
+        display: flex;
+        .divEquipoInformacion{
+            margin-right: 30px;
+            overflow: hidden;
+            font-weight: 600;
+            font-size: 13pt;
+            div{ 
+                padding: 15px;
+                border-radius: 5px;
+                overflow: hidden;
+                text-align: center;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+                background: rgba(15, 15, 15, 0.7);
+                img{
+                    width: 100%;
+                    height: 150px;
+                    margin-bottom: 7px;
+                }
+                p:nth-child(2),p:nth-child(4){
+                    color: #CDC9C3;
+                    font-weight: 200;
+                    font-size: 12pt;
+                }p:nth-child(3),p:nth-child(5){
+                    color: #E6E6E6;
+                    margin-bottom: 7px;
+                    letter-spacing: 1.5px;
+                }
+            }
+        }
+        .divGetJugadores{
+            width: 100%;
+            background: rgba(15, 15, 15, 0.7);
+            padding: 25px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            .divTituloJugadores{
+                font-size: 13pt;
+                color: #E6E6E6;
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+                img{
+                    height: 25px;
+                }
+            }
+            .divJugadores{
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                grid-gap: 20px;
+            }
+        }
+    }
+}

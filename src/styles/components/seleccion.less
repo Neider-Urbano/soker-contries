@@ -1,0 +1,39 @@
+.divSelecion{
+    background: rgba(15, 15, 15, 0.7);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    position: relative;
+    #imgSeleccion{
+        width: 100%;
+        height: 100px;
+    }
+    .imgFavorito{
+        position: absolute;
+        right: 5px;
+        top:5px;
+        width: 23px;
+        height: 23px;
+        cursor:pointer;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        p{
+            font-family: 'Lato', sans-serif;
+            color: #E6E6E6;
+            font-size: 13pt;
+        }
+    }
+    &:hover{
+        animation: tiembla 0.4s;
+      }
+}
+
+@keyframes tiembla{
+    0%  { transform:rotateZ(-5deg); }
+    50% { transform:rotateZ( 0deg) scale(.9); }
+    100%{ transform:rotateZ( 5deg); }
+}

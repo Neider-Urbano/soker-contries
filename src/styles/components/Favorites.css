@@ -1,0 +1,35 @@
+.componentFavorites {
+  padding: 25px 35px 35px 35px;
+  max-height: 92vh;
+  overflow-y: auto;
+}
+.componentFavorites .divTarjetaFovorite {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(8, 1fr);
+}
+.componentFavorites .divTarjetaFovorite .divSeleccionFavorite,
+.componentFavorites .divTarjetaFovorite .divEquipoFavorite,
+.componentFavorites .divTarjetaFovorite .divJugadorFavorite {
+  background: rgba(15, 15, 15, 0.7);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
+  position: relative;
+}
+.componentFavorites .divTarjetaFovorite .divSeleccionFavorite #imgFavorite,
+.componentFavorites .divTarjetaFovorite .divEquipoFavorite #imgFavorite,
+.componentFavorites .divTarjetaFovorite .divJugadorFavorite #imgFavorite {
+  width: 100%;
+  height: 100px;
+}
+.componentFavorites .divTarjetaFovorite .divSeleccionFavorite .imgFavorito,
+.componentFavorites .divTarjetaFovorite .divEquipoFavorite .imgFavorito,
+.componentFavorites .divTarjetaFovorite .divJugadorFavorite .imgFavorito {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}

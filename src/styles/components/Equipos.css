@@ -1,0 +1,25 @@
+.divEquipos {
+  margin-top: 25px;
+  background: rgba(15, 15, 15, 0.7);
+  padding: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.divEquipos .divTituloEquipos {
+  font-size: 13pt;
+  color: #E6E6E6;
+  display: flex;
+  align-items: center;
+}
+.divEquipos .divTituloEquipos img {
+  height: 25px;
+  margin-right: 5px;
+}
+.divEquipos .divGetEquipos {
+  width: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 20px;
+}

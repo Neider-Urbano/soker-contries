@@ -1,0 +1,30 @@
+.divDetailJugador {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.divDetailJugador .divGetInformacionJugador {
+  display: flex;
+  background: rgba(15, 15, 15, 0.7);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.divDetailJugador .divGetInformacionJugador img {
+  width: 300px;
+}
+.divDetailJugador .divGetInformacionJugador .divDetallesJugador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+.divDetailJugador .divGetInformacionJugador .divDetallesJugador p {
+  color: #E6E6E6;
+  font-size: 14pt;
+}
+.divDetailJugador .divGetInformacionJugador .divDetallesJugador span {
+  color: #CDC9C3;
+  margin-right: 7px;
+  font-size: 13pt;
+}

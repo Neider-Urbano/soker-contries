@@ -1,0 +1,60 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(20, 30, 39, 0.8);
+  display: flex;
+  padding: 0px 35px;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+  z-index: 1;
+}
+nav .divIconoSoker {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+nav .divIconoSoker img {
+  width: 37px;
+  height: 37px;
+}
+nav .divIconoSoker p {
+  margin-left: 5px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 13.5pt;
+  color: #f27446;
+}
+nav .divIconoUser {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+nav .divIconoUser img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+nav .divIconoUser div {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 7px;
+}
+nav .divIconoUser div .pNameUser {
+  font-size: 15pt;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+}
+nav .divIconoUser div .pCerrarSesion {
+  margin-top: -4px;
+  cursor: pointer;
+  font-size: 13pt;
+  font-family: 'Lato', sans-serif;
+  color: #D9D9D9;
+}
+nav .divIconoUser div .pCerrarSesion:hover {
+  color: #f27446;
+}

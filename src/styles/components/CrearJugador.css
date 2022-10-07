@@ -1,0 +1,14 @@
+.divCrearJugador {
+  padding: 25px 35px 35px 35px;
+  max-height: 92vh;
+  overflow-y: auto;
+}
+.divCrearJugador .divTituloCrearJugador {
+  background: red;
+}
+.divCrearJugador .divDatosJugador {
+  background: blue;
+}
+.divCrearJugador .divBotonCrear {
+  background: green;
+}

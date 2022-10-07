@@ -1,0 +1,28 @@
+.divJugador {
+  background: rgba(15, 15, 15, 0.6);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+}
+.divJugador img {
+  height: 110px;
+  width: 100%;
+}
+.divJugador .imgFavorito {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.divJugador div {
+  margin-top: 7px;
+  text-align: center;
+}
+.divJugador div p {
+  color: #E6E6E6;
+  font-size: 12.3pt;
+}

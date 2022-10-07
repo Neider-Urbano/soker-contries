@@ -1,0 +1,65 @@
+.bodyCrearUsuario {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyCrearUsuario video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bodyCrearUsuario .divLogin {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: rgba(220, 220, 220, 0.9);
+  padding: 50px 30px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.bodyCrearUsuario .divLogin .pCreateUsuario {
+  font-size: 16pt;
+  color: #191919;
+  font-weight: 500;
+}
+.bodyCrearUsuario .divLogin .inputName {
+  margin-top: 20px;
+  width: 300px;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  font-size: 13.5pt;
+  margin-bottom: 3px;
+  background: #c9c9c9;
+  color: #383838;
+  border-radius: 5px;
+  border: 1px #a7a7a7 solid;
+}
+.bodyCrearUsuario .divLogin span {
+  width: 300px;
+  color: red;
+  font-size: 13pt;
+  padding-left: 10px;
+}
+.bodyCrearUsuario .divLogin .inputCrear {
+  margin-top: 25px;
+  width: 300px;
+  padding: 6px 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 13.5pt;
+  background: #417D7A;
+  color: #fafafa;
+  border-radius: 5px;
+  border: 1.5px #1D5C63 solid;
+}
+.bodyCrearUsuario .divLogin .inputCrear:hover {
+  background: #1D5C63;
+}

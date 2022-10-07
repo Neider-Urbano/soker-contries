@@ -1,0 +1,46 @@
+.divCompeticiones {
+  background: rgba(15, 15, 15, 0.7);
+  padding: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.divCompeticiones .divTituloCompetencias {
+  font-size: 13pt;
+  color: #E6E6E6;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.divCompeticiones .divTituloCompetencias img {
+  height: 25px;
+}
+.divCompeticiones .divCompeticionesInformacion {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 25px;
+}
+.divCompeticiones .divCompeticionesInformacion .divCompeticion {
+  background: rgba(15, 15, 15, 0.6);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+}
+.divCompeticiones .divCompeticionesInformacion .divCompeticion img {
+  height: 120px;
+  width: inherit;
+  cursor: pointer;
+}
+.divCompeticiones .divCompeticionesInformacion .divCompeticion div {
+  margin-top: 7px;
+}
+.divCompeticiones .divCompeticionesInformacion .divCompeticion div p:nth-child(1) {
+  color: #E6E6E6;
+  font-size: 12.3pt;
+}
+.divCompeticiones .divCompeticionesInformacion .divCompeticion div p:nth-child(2) {
+  color: #CDC9C3;
+  font-size: 9.5pt;
+  margin-top: 5px;
+}
